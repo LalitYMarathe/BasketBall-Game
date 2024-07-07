@@ -1,0 +1,98 @@
+body {
+    margin: 20px;
+    color: #EEEEEE;
+    background-color: bisque;
+}
+
+.main-page{
+    max-width: 700px;
+    margin: 0px auto;
+    height: 400px;
+    height: 550px;
+    background-color: #1B244A;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0px auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+.angles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h2{
+    margin-top: 60px;
+    color: #F94F6D;
+    font-size: 70px;
+}
+
+h3{
+    margin-left: 40px;
+}
+
+.ghosts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.scorecard{
+   width: 150px;
+   height: 200px;
+   background-color: #080001;
+   text-align: center;
+   border-radius: 30px;
+   border: 1px solid #9AABD8;
+}
+
+.points{
+   display: flex;
+   justify-content: space-around;
+}
+
+.addPoints{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #9AABD8;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: #9AABD8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.newGame{
+    display: block;
+    width: 100px;
+    margin: 0px auto;
+ 
+}
+
+button{
+    background-color: #1B244A;
+    color: #EEEEEE;
+    border: none;
+    padding: 10px 5px;
+    border: 1px solid #9AABD8;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+.Heading-container{
+    display: block;
+    width: 400px;
+    margin: 0px auto;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+.Heading{
+    text-align: center;
+}

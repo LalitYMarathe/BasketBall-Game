@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main-page">
+            <div class="container">
+                <div class="angles">
+                    <h3>Angles</h3>
+                    
+                    <div class="scorecard">  
+                        <h2 id="angleScore">0</h2>
+                    </div>
+                    
+                    <div class="points">
+                        <div class="addPoints" 
+                           id="add1toangles"
+                           onclick="add1()"
+                        >+1</div>
+                        <div 
+                        class="addPoints add2toangles"
+                        onclick="add2()">+2</div>
+                        <div
+                            class="addPoints add2toangles"
+                            onclick="add3()">+3</div>
+                    </div>
+                </div>
+                <div class="ghosts">
+                    <h3>Ghosts</h3>
+                    <div class="scorecard">  
+                        <h2 id="ghostScore">0</h2> 
+                    </div>
+                    <div class="points">
+                        <div
+                            class="addPoints add1toghosts"
+                            onclick="add1ghost()"
+                            >+1</div>
+                        <div 
+                        class="addPoints add2toghosts"
+                        onclick="add2ghost()"
+                        >+2</div>
+                        <div 
+                            class="addPoints add3toghosts"
+                            onclick="add3ghost()">+3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="Heading-container">
+                <p class="Heading" id="heading">Let's start the game</p>
+            </div> 
+            <div class="newGame" id="newGamebtn"
+                onclick="newGameStart()">
+                <button>New Game</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
